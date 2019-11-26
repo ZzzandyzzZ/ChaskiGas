@@ -15,7 +15,7 @@ class Testone extends TestCase
     }
     public function testDatabase2()
     {
-        $this->assertDatabaseHas('user', [
+        $this->assertDatabaseMissing('user', [
             'name' => 'Delma',
         ]);
     }
@@ -23,6 +23,18 @@ class Testone extends TestCase
     {
         $this->assertDatabaseHas('user', [
             'email' => 'd123@gmail.com',
+        ]);
+    }
+     public function testDatabase4()
+    {
+        $this->assertDatabaseMissing('user', [
+            'email' => 'r123@gmail.com',
+        ]);
+    }
+    public function testDatabase5()
+    {
+        $this->assertDatabaseMissing('user', [
+            'name' => 'Carlos',
         ]);
     }
 
