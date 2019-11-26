@@ -18,7 +18,7 @@ class ExampleTest extends TestCase
     }
 
     
-	public function testDatabase()
+	public function thisanelement()
 	{
     // Make call to application...
 
@@ -27,7 +27,7 @@ class ExampleTest extends TestCase
     ]);
 	}
 
-	public function testDatabase()
+	public function thereisnoelement()
 	{
     // Make call to application...
 
@@ -36,7 +36,7 @@ class ExampleTest extends TestCase
     ]);
 	}
 
-	public function testDatabase()
+	public function deleteofdatabase()
 	{
     // Make call to application...
 
