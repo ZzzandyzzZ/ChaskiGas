@@ -16,4 +16,32 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    
+	public function testDatabase()
+	{
+    // Make call to application...
+
+    $this->assertDatabaseHas('users', [
+        'email' => 'superAdmin@gmail.com',
+    ]);
+	}
+
+	public function testDatabase()
+	{
+    // Make call to application...
+
+    $this->assertDatabaseMissing('users', [
+        'email' => 'superAdmasin@gmail.com',
+    ]);
+	}
+
+	public function testDatabase()
+	{
+    // Make call to application...
+
+    $this->assertSoftDeleted('users', ['email' => ' superAdmin@gmail.com']);
+	}
+
+
 }
