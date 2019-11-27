@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature;
+//namespace Tests\Feature;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -12,21 +12,10 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testVerifySecurityLoginTest()
+    public function testBasicTest()
     {
-		
-		//$this->withoutExceptionHandling();
-     
-		$response = $this->get('/index');
-        $response->assertStatus(302);
-    }
-	public function testCorrectAccessToLoginTest()
-    {
-		
-		//$this->withoutExceptionHandling();
-     
-		$response = $this->get('/');
+        $response = $this->get('/');
+
         $response->assertStatus(200);
-		$response->assertSee('Bienvenido');
     }
 }

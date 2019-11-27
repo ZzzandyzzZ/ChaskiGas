@@ -16,10 +16,3 @@ Route::get('index','IndexController@index')->name('index');
 
 Route::post('login','Auth\LoginController@login')->name('login');
 Route::post('logout','Auth\LoginController@logout')->name('logout');
-
-Route::resource('user','UserController');
-
-Route::get('show', function () {
-    return view('auth.create');
-});
-

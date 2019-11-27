@@ -15,33 +15,6 @@ class ExampleTest extends TestCase
     public function testBasicTest()
     {
         $this->assertTrue(true);
+    	//$this->visit('/')->see('Laravel 5');
     }
-
-    
-	public function thisanelement()
-	{
-    // Make call to application...
-
-    $this->assertDatabaseHas('users', [
-        'email' => 'superAdmin@gmail.com',
-    ]);
-	}
-
-	public function thereisnoelement()
-	{
-    // Make call to application...
-
-    $this->assertDatabaseMissing('users', [
-        'email' => 'superAdmasin@gmail.com',
-    ]);
-	}
-
-	public function deleteofdatabase()
-	{
-    // Make call to application...
-
-    $this->assertSoftDeleted('users', ['email' => ' superAdmin@gmail.com']);
-	}
-
-
 }

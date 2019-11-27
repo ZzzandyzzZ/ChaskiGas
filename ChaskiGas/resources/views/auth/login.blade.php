@@ -7,7 +7,7 @@
 
 @section('style','login.css')
 @section('content')
-	<div class="body1" style="background-image: url(images/full_image_1.jpeg);"></div>
+	<div class="body" style="background-image: url(images/full_image_1.jpeg);"></div>
 	<div class="grad"></div>
 	@if (session()->has('flash'))
 		<div class="alert alert-info" >

@@ -58,9 +58,8 @@
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon glyphicon glyphicon-list-alt"></i>
-						<h2>Registro Ventas</h2>
+						<h2>Registro</h2>
 						<p>Aqui podras registrar tus ventas realizadas a lo largo del dia , para que puedan ser administradas</p>
-
 						<p><a href="Consola.jsp" class="btn btn-primary">Click aqui</a></p>
 					</div>
 				</div>
@@ -71,7 +70,8 @@
 						<i class="fh5co-intro-icon 	glyphicon glyphicon-sunglasses"></i>
 						<h2>Revision</h2>
 						<p>Aqui podras observar tus ventas o datos que ingresaste sobre tu ventay llevar un control respectivo</p>
-						<p><a href="/user" class="btn btn-primary">Click aqui</a></p>
+						
+						<p><a href="Consola.jsp" class="btn btn-primary">Click aqui</a></p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
@@ -79,9 +79,9 @@
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon glyphicon glyphicon-equalizer"></i>
-						<h2>Registro Usuarios</h2>
-						<p>Esta seccion permite registrar nuevos usuarios y asignar su rol correspondiente</p>
-						<p><a href="user/create" class="btn btn-primary">Click aqui</a></p>
+						<h2>Consola</h2>
+						<p>Esta seccion permite enviar comandos directamente a la base de datos,para que el profesor pueda hacer sus consultas respectivas</p>
+						<p><a href="Consola.jsp" class="btn btn-primary">Click aqui</a></p>
 					</div>
 				</div>
 			</div>
